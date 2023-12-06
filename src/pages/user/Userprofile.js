@@ -17,7 +17,7 @@ const Userprofile = () => {
            <Usersiderbar activepage={activepage} />
         </div>
         <div className='right'>
-           {activepage === "accountsettings" &&<Accountsettings/>}
+           {activepage === "accountsettings" &&<Studentprofile/>}
            {activepage === "mypurchases" && <Mycourses/>}
            {activepage === "studentprofile" && <Studentprofile/>}
         </div>
